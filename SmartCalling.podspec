@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
 
   s.name         = "SmartCalling"
   s.version      = "1.0.1"
-  s.summary      = "A short description of SmartCalling."
+  s.summary      = "SmartCalling like the Activity status bars."
 
   s.description  = <<-DESC
 		   This library allows you to quickly and easily send emails through SmartCalling using Swift
@@ -31,8 +31,5 @@ Pod::Spec.new do |s|
   s.source_files     = "Classes/*"
   s.dependency         "Alamofire", "~> 4.0"
   s.dependency         "AlamofireImage", "~> 3.1"
-
-  s.pod_target_xcconfig = { 'SWIFT_VERSION' => '3' }
-
 
 end
